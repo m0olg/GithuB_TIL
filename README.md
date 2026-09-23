@@ -18,7 +18,7 @@
 
 ### 𝟬𝟯_𝗠𝗮𝗰
 
-- 
+- [터미널 기본 명령어](https://github.com/m0olg/GithuB_TIL/blob/main/%F0%9D%9F%AC%F0%9D%9F%AF_%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%B0/01.%20%ED%84%B0%EB%AF%B8%EB%84%90%20%EA%B8%B0%EB%B3%B8%20%EB%AA%85%EB%A0%B9%EC%96%B4/terminal.md)
 
 ### 𝟬𝟰_𝗪𝗶𝗻𝗱𝗼𝘄𝘀
 
