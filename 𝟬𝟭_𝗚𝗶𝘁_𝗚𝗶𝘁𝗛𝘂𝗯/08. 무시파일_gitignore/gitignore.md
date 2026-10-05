@@ -13,8 +13,8 @@
 
 `git status`를 했을 때 목록에 나타나지 않고, `git add .`를 해도 올라가지 않음
 
-
-
+<br>
+<br>
 
 
 
@@ -32,8 +32,8 @@
 정리하면 **코드와 설정 중 팀이 같이 봐야 하는 것만 올리고, 나머지는 각자 로컬에만 두기 위해** 사용함
 
 
-
-
+<br>
+<br>
 
 
 # 03 .gitignore 만드는 방법
@@ -51,7 +51,8 @@
 > `.gitignore` 파일 자체는 팀원 모두가 같은 규칙을 써야 하므로 **커밋해서 저장소에 올리는 것이 원칙**임
 
 
-
+<br>
+<br>
 
 
 
@@ -91,7 +92,8 @@ dist/
 !logs/keep.log
 ```
 
-
+<br>
+<br>
 
 
 
@@ -120,7 +122,8 @@ git commit -m "추적 중이던 파일을 gitignore 대상으로 변경"
 > 실수로 `--cached`를 빼먹으면 내 컴퓨터의 실제 파일까지 삭제되므로 꼭 확인하고 실행해야 함
 
 
-
+<br>
+<br>
 
 
 
@@ -134,7 +137,8 @@ git commit -m "추적 중이던 파일을 gitignore 대상으로 변경"
 
 
 
-
+<br>
+<br>
 
 
 # 07 무시되는지 확인하기
@@ -149,7 +153,8 @@ git check-ignore -v 파일명
 
 가장 간단한 방법은 `git status`를 했을 때 해당 파일이 목록에 나오지 않는지 보는 것임
 
-
+<br>
+<br>
 
 
 
@@ -192,7 +197,8 @@ git config --global core.excludesfile ~/.gitignore_global
 이렇게 경로를 지정한 뒤 해당 파일에 규칙을 적어두면 됨
 
 
-
+<br>
+<br>
 
 
 
@@ -224,7 +230,8 @@ git config --global core.excludesfile ~/.gitignore_global
 팀에서 새로운 도구나 폴더가 추가되면 `.gitignore`도 함께 업데이트하고 PR로 공유해야 함. 한 명만 규칙이 달라도 불필요한 파일이 계속 올라오게 됨
 
 
-
+<br>
+<br>
 
 
 
