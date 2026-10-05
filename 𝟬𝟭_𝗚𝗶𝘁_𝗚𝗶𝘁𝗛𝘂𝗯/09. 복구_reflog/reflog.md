@@ -148,6 +148,8 @@ git branch feature/login e4f5g6h
 
 
 
+<br>
+<br>
 
 
 
@@ -162,6 +164,8 @@ git branch feature/login e4f5g6h
 
 
 
+<br>
+<br>
 
 
 
@@ -195,6 +199,8 @@ Reflog는 **커밋을 기록하는 도구**임. 한 번도 커밋하지 않은 �
 `git reset --hard`로 복구하면 현재 작업 폴더가 덮어써짐. 복구하기 전에 `git status`로 저장하지 않은 변경 사항이 있는지 확인하고, 불안하다면 앞에서 설명한 **새 브랜치로 살려놓는 방법**을 먼저 쓰는 것이 안전함
 
 
+<br>
+<br>
 
 
 
