@@ -114,3 +114,57 @@ git log --oneline
 <br>
 
 
+# 06 변경 내용 확인하기
+
+```bash
+git diff
+```
+
+`add`하기 전에 파일의 어느 줄이 바뀌었는지 보여주는 명령어 !
+
+삭제된 줄은 `-`와 함께 빨간색으로, 추가된 줄은 `+`와 함께 초록색으로 표시됨 \
+이미 `add`를 한 파일은 `git diff`에 나타나지 않고 `git diff --staged`로 확인해야 함
+
+커밋하기 전에 내가 뭘 바꿨는지 마지막으로 점검하는 용도로 쓰기 좋음
+
+
+<br>
+<br>
+
+
+# 07 첫 커밋까지의 흐름
+
+지금까지의 명령어를 순서대로 이어 붙이면 첫 커밋까지의 흐름이 완성됨
+
+```bash
+cd 프로젝트폴더
+git init
+git status
+git add .
+git commit -m "첫 커밋"
+git log --oneline
+```
+
+프로젝트 폴더로 이동해서 `git init`으로 저장소를 만들고 `git status`로 어떤 파일이 있는지 확인한 뒤, `git add .`으로 스테이징하고 `git commit`으로 첫 기록을 남김 \
+마지막에 `git log --oneline`을 입력했을 때 방금 쓴 메시지가 보이면 성공임
+
+이후에는 파일을 수정할 때마다 `status` → `add` → `commit` 순서를 반복하게 됨
+
+
+<br>
+<br>
+
+---
+
+# 정리
+
+| 명령어 | 역할 |
+| --- | --- |
+| `git status` | 현재 상태 확인 |
+| `git add 파일명` | 커밋할 파일을 스테이징 영역에 올림 |
+| `git add .` | 현재 폴더의 변경 사항을 모두 스테이징 |
+| `git restore --staged 파일명` | 스테이징 취소 |
+| `git commit -m "메시지"` | 스테이징된 내용을 저장소에 기록 |
+| `git log --oneline` | 커밋 기록을 한 줄씩 확인 |
+| `git diff` | `add` 전의 변경 내용 확인 |
+| `git diff --staged` | `add` 후 커밋 전의 변경 내용 확인 |
